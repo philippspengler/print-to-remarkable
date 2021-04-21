@@ -25,3 +25,4 @@ Assuming you encountered no errors during these steps, the plugin should be read
 - making set-up easier
 - improving stability
 - improving speed (large documents can take several minutes to upload)
+- the current release includes extensive logging, both by the batch script and by the python script. If this annoys you, you can easily remove it yourself. In future releases, once stability is improved, logging will be deactivated.
