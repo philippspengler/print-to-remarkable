@@ -16,3 +16,12 @@ Setting up the plugin is non-trivial. Furthermore, as there are four different s
 5. If you have never used the Python reMarkable API, you must first connect your device. Go to [my.remarkable.com](my.remarkable.com) and get a code for a new desktop device. Open setup.py in an editor of your choice, enter the code as a string in the highlighted section of the code, and run.
 
 Assuming you encountered no errors during these steps, the plugin should be ready to use.
+
+# Future improvements
+- Currently, the print plugin will always set the file name of your document to the current date. Functionality to change filename still missing.
+- Fixing novice programming mistakes, such as:
+  - referencing a python file rather than an executable in a batch file (depending on if you have added python to your path variable, this will cause an error)
+  - requiring rmapy to be in the same folder as the plugin (python struggles finding modules installed through pip when executed from a batch file, so currently the plugin comes with the rmapy module)
+- making set-up easier
+- improving stability
+- improving speed (large documents can take several minutes to upload)
