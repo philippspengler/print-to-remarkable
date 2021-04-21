@@ -4,7 +4,7 @@ Print plugin to directly print documents from Windows to a reMarkable tablet.
 This repository contains the files and instructions needed to set up a printer on a Windows (10) device which sends the printed documented to a connected reMarkable device as a .pdf file. The plugin makes use of the several external tools, including:
 - Multi File Port Monitor, a printer port that allows redirecting standard input from the printer to an external program
 - Ghostscript, a program that converts postscript into pdf
-- rmapy, an (unofficial) reMarkable API python library
+- [rmapy](https://github.com/subutux/rmapy), an (unofficial) reMarkable API python library
 
 Setting up the plugin is non-trivial. Furthermore, as there are four different systems (Windows Print Spooler Service, Multi File Port Monitor, Ghostscript, and Python) running in separate languages, it is prone to errors. After much debugging, it runs on my own laptop, but don't expect it to work out of the box on your own. See this as an alpha-alpha version of the plugin.
 
