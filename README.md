@@ -10,7 +10,7 @@ Setting up the plugin is non-trivial. Furthermore, as there are four different s
 
 # Setup
 1. Download and install [Multi File Port Monitor](https://sourceforge.net/projects/mfilemon/) and [Ghostscript](https://www.ghostscript.com/). You will also need a Python 3 installation.
-2. Download this repository and unzip it in a location of your choice.
+2. Download this repository and unzip it in a location of your choice. Download [rmapy](https://github.com/subutux/rmapy) from the dedicated github repository and add the rmapy folder to the same location as this repository. 
 3. Manually set up a new printer in Windows (Control Panel>Hardware and Sound>Devices and Printers>Add a new printer>"The printer I want isn't listed"). Choose local printer from the menu options and create a new port of the type "Multi File Port Monitor". Give it any name you want.
 4. Configure your new port. The crucial bit here is the user command box, where you need to enter the full path leading to the file "handler.bat" in the folder you downloaded from this repository. Enter anything into the filename pattern box - it is not used but required for configuration. Make sure that "Use pipe to send data to user command" is checked. 
 5. If you have never used the Python reMarkable API, you must first connect your device. Go to [my.remarkable.com](my.remarkable.com) and get a code for a new desktop device. Open setup.py in an editor of your choice, enter the code as a string in the highlighted section of the code, and run.
